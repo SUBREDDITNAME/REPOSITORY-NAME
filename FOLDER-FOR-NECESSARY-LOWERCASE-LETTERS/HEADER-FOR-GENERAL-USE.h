@@ -1,7 +1,7 @@
 #pragma once
 #include <stdio.h>
 #include <stdlib.h>
-#define RETURN_DIRECTIVE return;
+#define RETURN_DIRECTIVE return
 typedef int DATA_TYPE;
 typedef char OTHER_DATA_TYPE;
 typedef void THIRD_DATA_TYPE;
