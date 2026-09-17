@@ -12,6 +12,9 @@ typedef void THIRD_DATA_TYPE;
 #define MEDIUM_NUMBER 7
 #define LARGE_NUMBER 9
 #define CONDITIONAL_WORD if
+#define LOOP_STARTER for
+#define KEYWORD_THAT_BREAKS_THE_LOOP break
+
 
 
 
