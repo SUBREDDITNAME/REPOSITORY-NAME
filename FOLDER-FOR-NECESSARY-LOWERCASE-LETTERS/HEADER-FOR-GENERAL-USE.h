@@ -14,7 +14,5 @@ typedef void THIRD_DATA_TYPE;
 #define CONDITIONAL_WORD if
 #define LOOP_STARTER for
 #define KEYWORD_THAT_BREAKS_THE_LOOP break
-
-
-
-
+#define KEYWORD_THAT_CHECKS_THE_VALUE_OF switch
+#define SOMETHING_TO_DO_IF_THE_VALUE_IS case
