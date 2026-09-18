@@ -10,9 +10,15 @@ typedef void THIRD_DATA_TYPE;
 #define OTHER_VALUE 1
 #define SMALL_NUMBER 4
 #define MEDIUM_NUMBER 7
-#define LARGE_NUMBER 9
+#define LARGE_NUMBER 10
 #define CONDITIONAL_WORD if
 #define LOOP_STARTER for
 #define KEYWORD_THAT_BREAKS_THE_LOOP break
 #define KEYWORD_THAT_CHECKS_THE_VALUE_OF switch
 #define SOMETHING_TO_DO_IF_THE_VALUE_IS case
+#define EQUALS_SIGN ==
+#define PLUS_SIGN +
+#define MINUS_SIGN -
+#define MULTIPLICATION_SIGN *
+#define DIVISION_SIGN /
+#define MODULO_SIGN %
