@@ -7,5 +7,17 @@ CMakeCache.txt
 cmake_install.cmake
 Makefile
 build*/
+#ALL LOWERCASE LETTERS NOT NECESSARY
+*b*
+*f*
+*j*
+*l*
+*p*
+*q*
+*u*
+*v*
+*w*
+*y*
+*z*
 #AND
 .vscode/
