@@ -1,0 +1,12 @@
+cmake_minimum_required(VERSION 3.10)
+project(PROJECT-NAME)
+
+find_package(glfw3 REQUIRED)
+find_package(OpenGL REQUIRED)
+set(SOURCE_FILES ../FILE-WITH-MAIN-FUNCTION.c ../FILE-WITH-ADDITIONAL-FUNCTIONS.c ./FILE-THAT-INCLUDES-CALLS-TO-EXTERNAL-LIBRARIES.c ./FILE-THAT-ALIASES-LOWERCASE-FUNCTIONS.c ./glad.c)
+include_directories(.)
+
+
+add_executable(EXECUTABLE_NAME ${SOURCE_FILES})
+
+target_link_libraries(EXECUTABLE_NAME PRIVATE glfw)

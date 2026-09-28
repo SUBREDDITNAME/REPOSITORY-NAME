@@ -1,0 +1,11 @@
+# DISORGANIZED GITIGNORE THAT INCLUDES
+glad.c
+*.o
+glad.h
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build*/
+#AND
+.vscode/
